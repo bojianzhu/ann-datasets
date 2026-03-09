@@ -1,6 +1,7 @@
 # Survey, Tutorial, and Datasets for Vector Similarity Search
 
 * [**Disk-Resident Vector Similarity Search: A Survey**](#-disk-resident-vector-similarity-search-a-survey-paper)
+* [**Disk-Resident Graph ANN Search: An Experimental Evaluation**](#-disk-resident-graph-ann-search-an-experimental-evaluation-paper)
 * [**Vector Search for the Future: SIGMOD '26 Tutorial**](#-vector-search-for-the-future-from-memory-resident-static-heterogeneous-storage-to-cloud-native-architectures-sigmod-26-tutorial-paper)
 * [**Public VSS Datasets**](#%EF%B8%8F-public-vss-datasets)
 
@@ -14,7 +15,15 @@
   author={Song, Yitong and Li, Huiling and Wu, Zheng and Yi, Lanjing and Zhu, Bojian and Zhou, Xuanhe and Huang, Xin and Xu, Jianliang},
   year={2026}
 }
-
+@misc{chen2026diskresidentgraphannsearch,
+	title={Disk-Resident Graph ANN Search: An Experimental Evaluation}, 
+  author={Xiaoyu Chen and Jinxiu Qu and Yitong Song and Shuhang Lu and Huiling Li and Minghui Jiang and Wei Zhou and Jianliang Xu and Xuanhe Zhou and Fan Wu},
+  year={2026},
+  eprint={2603.01779},
+  archivePrefix={arXiv},
+  primaryClass={cs.DB},
+  url={https://arxiv.org/abs/2603.01779}, 
+}
 @article{song2026vector2,
   title={Vector Search for the Future: From Memory-Resident, Static Heterogeneous Storage, to Cloud-Native Architectures},
   author={Song, Yitong and Zhou, Xuanhe and Jensen, Christian S and Xu, Jianliang},
@@ -30,6 +39,12 @@ We categorize existing methods into three major classes, i.e., **IVF-based**, **
 
 ### ![classify](README.assets/classify.png)
 
+## 🔍 Disk-Resident Graph ANN Search: An Experimental Evaluation [[📑paper]](https://arxiv.org/pdf/2603.01779)
+
+As data volumes grow while memory capacity remains limited, disk-resident graph-based approximate nearest neighbor (ANN) methods have become a practical alternative to memory-resident designs, shifting the bottleneck from computation to disk I/O. However, since their technical designs diverge widely across storage, layout, and execution paradigms, a systematic understanding of their fundamental performance trade-offs remains elusive. 
+This paper presents a comprehensive experimental study of diskresident graph-based ANN methods. **First, we decompose such systems into five key technical components,** i.e., storage strategy, disk layout, cache management, query execution, and update mechanism, and build a unified taxonomy of existing designs across these components. **Second, we conduct fine-grained evaluations of representative strategies for each technical component** to analyze the trade-offs in throughput, recall, and resource utilization. **Third, we perform comprehensive end-to-end experiments and parametersensitivity analyses** to evaluate overall system performance under diverse configurations. **Fourth, our study reveals several nonobvious findings:** (1) vector dimensionality fundamentally reshapes component effectiveness, necessitating dimension-aware design; (2) existing layout strategies exhibit surprisingly low I/O utilization (≤ 15%); (3) page size critically affects feasibility and efficiency, with smaller pages preferred when layouts are carefully optimized; and (4) update strategies present clear workload-dependent trade-offs between in-place and out-of-place designs. Based on these findings, we derive practical guidelines for system design and configuration, and outline promising directions for future research.
+
+![image-20260309203256362](README.assets/experiment.png)
 
 ## 🚀 Vector Search for the Future: From Memory-Resident, Static Heterogeneous Storage, to Cloud-Native Architectures ***(SIGMOD '26 Tutorial)*** [[📑paper]](https://arxiv.org/pdf/2601.01937)
 
