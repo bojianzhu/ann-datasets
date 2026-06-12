@@ -46,7 +46,7 @@ This paper presents a comprehensive experimental study of diskresident graph-bas
 
 ![image-20260309203256362](README.assets/experiment.png)
 
-## 🚀 Vector Search for the Future: From Memory-Resident, Static Heterogeneous Storage, to Cloud-Native Architectures ***(SIGMOD '26 Tutorial)*** [[📑paper]](https://arxiv.org/pdf/2601.01937)
+## 🚀 Vector Search for the Future: From Memory-Resident, Static Heterogeneous Storage, to Cloud-Native Architectures ***(SIGMOD '26 Tutorial)*** [[📑paper]](https://arxiv.org/pdf/2601.01937)[[📑slides]](https://drive.google.com/file/d/11rxDwnpMpiHyHnJOSwDLF8-Yflc60Gk2/view)
 
 In this tutorial, we review the evolution of VS techniques from a storage-architecture perspective. We first review **memory-resident** methods, covering classical IVF-, hash-, quantization-, and graph-based designs. We then present a systematic overview of **heteroge-neous storage** VS techniques, including their index designs, block-level layouts, query strategies, and update mechanisms. Finally, we examine emerging **cloud-native** systems and highlight open research opportunities for future large-scale vector retrieval systems. 
 
