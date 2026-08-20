@@ -2,7 +2,7 @@
 
 * [**Disk-Resident Vector Similarity Search: A Survey**](#-disk-resident-vector-similarity-search-a-survey-paper)
 * [**Disk-Resident Graph ANN Search: An Experimental Evaluation**](#-disk-resident-graph-ann-search-an-experimental-evaluation-paper)
-* [**Vector Search for the Future: SIGMOD '26 Tutorial**](#-vector-search-for-the-future-from-memory-resident-static-heterogeneous-storage-to-cloud-native-architectures-sigmod-26-tutorial-paper)
+* [**Vector Search for the Future: SIGMOD '26 Tutorial**](#vector-search-for-the-future-from-memory-resident-static-heterogeneous-storage-to-cloud-native-architectures-sigmod-26-tutorial) 
 * [**Public VSS Datasets**](#%EF%B8%8F-public-vss-datasets)
 
 > ```
@@ -13,6 +13,7 @@
 @article{song2026vector1,
   title={Disk-Resident Vector Similarity Search: A Survey},
   author={Song, Yitong and Li, Huiling and Wu, Zheng and Yi, Lanjing and Zhu, Bojian and Zhou, Xuanhe and Huang, Xin and Xu, Jianliang},
+  journal={IEEE Transactions on Knowledge and Data Engineering (TKDE) (Minor Revision),
   year={2026}
 }
 @misc{chen2026diskresidentgraphannsearch,
