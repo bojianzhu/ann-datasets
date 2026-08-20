@@ -2,7 +2,7 @@
 
 * [**Disk-Resident Vector Similarity Search: A Survey**](#-disk-resident-vector-similarity-search-a-survey-paper)
 * [**Disk-Resident Graph ANN Search: An Experimental Evaluation**](#-disk-resident-graph-ann-search-an-experimental-evaluation-paper)
-* [**Vector Search for the Future: SIGMOD '26 Tutorial**](#-vector-search-for-the-future-from-memory-resident-static-heterogeneous-storage-to-cloud-native-architectures-sigmod-26-tutorial) 
+* [**Vector Search for the Future: SIGMOD '26 Tutorial**](#-vector-search-for-the-future-from-memory-resident-static-heterogeneous-storage-to-cloud-native-architectures-sigmod-26-tutorial-paper-slides) 
 * [**Public VSS Datasets**](#%EF%B8%8F-public-vss-datasets)
 
 > ```
