@@ -13,7 +13,7 @@
 @article{song2026vector1,
   title={Disk-Resident Vector Similarity Search: A Survey},
   author={Song, Yitong and Li, Huiling and Wu, Zheng and Yi, Lanjing and Zhu, Bojian and Zhou, Xuanhe and Huang, Xin and Xu, Jianliang},
-  journal={IEEE Transactions on Knowledge and Data Engineering (TKDE),
+  journal={IEEE Transactions on Knowledge and Data Engineering (TKDE)},
   year={2026}
 }
 @misc{chen2026diskresidentgraphannsearch,
