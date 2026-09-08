@@ -30,7 +30,9 @@
   title={Vector Search for the Future: From Memory-Resident, Static Heterogeneous Storage, to Cloud-Native Architectures},
   author={Song, Yitong and Zhou, Xuanhe and Jensen, Christian S and Xu, Jianliang},
   journal={Proceedings of the ACM on Management of Data (SIGMOD)},
-  year={2026}
+  year={2026},
+  pages={580--587},
+  url={https://doi.org/10.1145/3788853.380187}
 }
 ```
 
