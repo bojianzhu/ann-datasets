@@ -32,7 +32,7 @@
   journal={Proceedings of the ACM on Management of Data (SIGMOD)},
   year={2026},
   pages={580--587},
-  url={https://doi.org/10.1145/3788853.380187}
+  url={https://doi.org/10.1145/3788853.3801879}
 }
 ```
 
