@@ -14,7 +14,8 @@
   title={Disk-Resident Vector Similarity Search: A Survey},
   author={Song, Yitong and Li, Huiling and Wu, Zheng and Yi, Lanjing and Zhu, Bojian and Zhou, Xuanhe and Huang, Xin and Xu, Jianliang},
   journal={IEEE Transactions on Knowledge and Data Engineering (TKDE)},
-  year={2026}
+  year={2026},
+  url={https://doi.org/10.1109/TKDE.2026.3731393}
 }
 @misc{chen2026diskresidentgraphannsearch,
 	title={Disk-Resident Graph ANN Search: An Experimental Evaluation}, 
@@ -23,7 +24,7 @@
   eprint={2603.01779},
   archivePrefix={arXiv},
   primaryClass={cs.DB},
-  url={https://arxiv.org/abs/2603.01779}, 
+  url={https://arxiv.org/abs/2603.01779}
 }
 @article{song2026vector2,
   title={Vector Search for the Future: From Memory-Resident, Static Heterogeneous Storage, to Cloud-Native Architectures},
